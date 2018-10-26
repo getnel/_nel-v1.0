@@ -4,8 +4,8 @@
 
 Organization  : Flamecore
 Name Project  : _nel
-Version       : 1.0
-Last Change   : 28/08/2018 [Create]
+Version       : 1.0.1
+Last Change   : 25/10/2018 [Update]
 Github Page   : http://get_nel.github.io 
 Author        : andikachamberlin.github.io
 License       : MIT
@@ -160,7 +160,7 @@ License       : MIT
   --light-white        : rgba(255,255,255,0.85);
   --light-black        : rgba(0,0,0,0.85);
   --light-white-hover  : rgba(255,255,255,0.1);
-  --light-white-black  : rgba(0,0,0,0.1);
+  --light-black-hover  : rgba(0,0,0,0.1);
   --light-white-middle : rgba(255,255,255,0.5);
   --light-black-middle : rgba(0,0,0,0.5);
   --transparent        : transparent;
