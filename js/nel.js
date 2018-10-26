@@ -4,8 +4,8 @@
 
 Organization  : Flamecore
 Name Project  : _nel
-Version       : 1.0
-Last Change   : 28/08/2018 [Create]
+Version       : 1.0.1
+Last Change   : 25/10/2018 [Update]
 Github Page   : http://get_nel.github.io 
 Author        : andikachamberlin.github.io
 License       : MIT
@@ -44,13 +44,6 @@ function _ie(){
         // IE 11 => return version number
         var rv = ua.indexOf('rv:');
         return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
-    }
-
-    var edge = ua.indexOf('Edge/');
-      
-    if (edge > 0) {
-        // Edge (IE 12+) => return version number
-        return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
     }
 
     // other browser
